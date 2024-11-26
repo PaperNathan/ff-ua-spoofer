@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "FFUA Spoofer",
+  "version": "1.0",
+  "description": "Firefox User Agent Spoofer for Front-end Testing",
+  "icons": {
+    "48": "icons/question-mark-17.png"
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
